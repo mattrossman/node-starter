@@ -14,6 +14,7 @@ const schema = z.object({
   MY_VARIABLE: z.string().default("world"),
 })
 
+// eslint-disable-next-line no-restricted-properties
 const parsed = schema.safeParse(process.env)
 
 if (!parsed.success) {
