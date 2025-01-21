@@ -18,6 +18,7 @@ export default tseslint.config({
   },
   rules: {
     "no-constant-condition": ["error", { checkLoops: false }],
+    "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-floating-promises": "warn",
     "@typescript-eslint/no-misused-promises": [
       2,
