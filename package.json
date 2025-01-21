@@ -1,0 +1,17 @@
+{
+  "name": "create-node-app",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tsx watch main.ts"
+  },
+  "author": "Matt Rossman",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node23": "^23.0.0",
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2"
+  },
+  "engines": {
+    "node": "^23.0.0"
+  }
+}
