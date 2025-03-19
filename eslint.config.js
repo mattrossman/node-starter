@@ -45,5 +45,11 @@ export default tseslint.config({
       },
     ],
     "require-yield": "off",
+    "@typescript-eslint/restrict-template-expressions": [
+      "warn",
+      {
+        allowNumber: true,
+      },
+    ],
   },
 })
